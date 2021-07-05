@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view autoresizesSubviews="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" restorationIdentifier="VideoMessageView" translatesAutoresizingMaskIntoConstraints="NO" id="W3r-bz-UkE" customClass="AudioMessageView" customModule="beanfun" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="300" height="65"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="0Re-mg-9dM">
+                    <rect key="frame" x="0.0" y="0.0" width="300" height="65"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="F3m-gv-cKd">
+                            <rect key="frame" x="0.0" y="0.0" width="65.5" height="65"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6xd-4n-nKm">
+                                    <rect key="frame" x="0.0" y="0.0" width="29" height="65"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="/" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e25-wZ-3dN">
+                                    <rect key="frame" x="31" y="0.0" width="3.5" height="65"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                    <color key="textColor" name="customGray1"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pf1-G5-uam">
+                                    <rect key="frame" x="36.5" y="0.0" width="29" height="65"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                    <color key="textColor" name="customGray1"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                        </stackView>
+                        <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="mTK-2e-Uiz">
+                            <rect key="frame" x="71.5" y="0.0" width="230.5" height="66"/>
+                        </slider>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="x5o-H5-T47"/>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="0Re-mg-9dM" firstAttribute="centerX" secondItem="W3r-bz-UkE" secondAttribute="centerX" id="1bu-An-ZJR"/>
+                <constraint firstItem="0Re-mg-9dM" firstAttribute="top" secondItem="W3r-bz-UkE" secondAttribute="top" id="9sU-Ek-69u"/>
+                <constraint firstItem="x5o-H5-T47" firstAttribute="bottom" secondItem="0Re-mg-9dM" secondAttribute="bottom" id="B0C-C3-Hc3"/>
+                <constraint firstAttribute="trailing" secondItem="0Re-mg-9dM" secondAttribute="trailing" id="HgC-Fm-Ueo"/>
+                <constraint firstItem="0Re-mg-9dM" firstAttribute="leading" secondItem="W3r-bz-UkE" secondAttribute="leading" id="My6-QF-5gq"/>
+                <constraint firstItem="0Re-mg-9dM" firstAttribute="centerY" secondItem="W3r-bz-UkE" secondAttribute="centerY" id="STK-gO-prp"/>
+                <constraint firstAttribute="width" priority="999" constant="300" id="ts8-aM-apD"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="currentLbl" destination="6xd-4n-nKm" id="i54-Lo-ZSH"/>
+                <outlet property="durationLbl" destination="Pf1-G5-uam" id="8Ce-z6-yg9"/>
+                <outlet property="progressSlider" destination="mTK-2e-Uiz" id="OXq-OO-at6"/>
+                <outlet property="stackView" destination="0Re-mg-9dM" id="n99-Mb-MGG"/>
+                <outlet property="widthConstraint" destination="ts8-aM-apD" id="8Jr-BN-DJ6"/>
+            </connections>
+            <point key="canvasLocation" x="782" y="139"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="customGray1">
+            <color red="0.37254901960784315" green="0.37254901960784315" blue="0.37254901960784315" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+    </resources>
+</document>

@@ -7,23 +7,91 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9635EB0C2695F29100BAAF57 /* ImageMessageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9635EB0A2695F29100BAAF57 /* ImageMessageView.xib */; };
+		9635EB0D2695F29100BAAF57 /* ImageMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9635EB0B2695F29100BAAF57 /* ImageMessageView.swift */; };
+		9635EB0F2695F49500BAAF57 /* MessageCalculate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9635EB0E2695F49500BAAF57 /* MessageCalculate.swift */; };
+		9635EB1126969BBD00BAAF57 /* FriendImageMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9635EB1026969BBD00BAAF57 /* FriendImageMessageCell.swift */; };
+		9635EB1326969BC800BAAF57 /* MyImageMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9635EB1226969BC800BAAF57 /* MyImageMessageCell.swift */; };
+		9635EB2026969D7400BAAF57 /* ChestMessageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9635EB1426969D7400BAAF57 /* ChestMessageView.xib */; };
+		9635EB2126969D7400BAAF57 /* StickerMessageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9635EB1526969D7400BAAF57 /* StickerMessageView.xib */; };
+		9635EB2226969D7400BAAF57 /* StickersComboMessageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9635EB1626969D7400BAAF57 /* StickersComboMessageView.xib */; };
+		9635EB2326969D7400BAAF57 /* ReplyMessageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9635EB1726969D7400BAAF57 /* ReplyMessageView.xib */; };
+		9635EB2426969D7400BAAF57 /* VideoMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9635EB1826969D7400BAAF57 /* VideoMessageView.swift */; };
+		9635EB2526969D7400BAAF57 /* StickersComboMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9635EB1926969D7400BAAF57 /* StickersComboMessageView.swift */; };
+		9635EB2626969D7400BAAF57 /* VideoMessageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9635EB1A26969D7400BAAF57 /* VideoMessageView.xib */; };
+		9635EB2726969D7400BAAF57 /* ChestMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9635EB1B26969D7400BAAF57 /* ChestMessageView.swift */; };
+		9635EB2826969D7400BAAF57 /* AudioMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9635EB1C26969D7400BAAF57 /* AudioMessageView.swift */; };
+		9635EB2926969D7400BAAF57 /* ReplyMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9635EB1D26969D7400BAAF57 /* ReplyMessageView.swift */; };
+		9635EB2A26969D7400BAAF57 /* StickerMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9635EB1E26969D7400BAAF57 /* StickerMessageView.swift */; };
+		9635EB2B26969D7400BAAF57 /* AudioMessageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9635EB1F26969D7400BAAF57 /* AudioMessageView.xib */; };
+		9635EB2D26969FE700BAAF57 /* MyAudioMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9635EB2C26969FE700BAAF57 /* MyAudioMessageCell.swift */; };
+		9635EB2F2696A03A00BAAF57 /* MyChestMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9635EB2E2696A03A00BAAF57 /* MyChestMessageCell.swift */; };
+		9635EB312696A07A00BAAF57 /* MyStickerMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9635EB302696A07A00BAAF57 /* MyStickerMessageCell.swift */; };
+		9635EB332696A15400BAAF57 /* MyVideoMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9635EB322696A15400BAAF57 /* MyVideoMessageCell.swift */; };
+		9635EB352696A20A00BAAF57 /* FriendAudioMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9635EB342696A20A00BAAF57 /* FriendAudioMessageCell.swift */; };
+		9635EB372696A24A00BAAF57 /* FriendChestMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9635EB362696A24A00BAAF57 /* FriendChestMessageCell.swift */; };
+		9635EB392696A28100BAAF57 /* FullChestMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9635EB382696A28100BAAF57 /* FullChestMessageCell.swift */; };
+		9635EB3B2696A32C00BAAF57 /* FriendStickerMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9635EB3A2696A32C00BAAF57 /* FriendStickerMessageCell.swift */; };
+		9635EB3D2696A37100BAAF57 /* FriendVideoMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9635EB3C2696A37100BAAF57 /* FriendVideoMessageCell.swift */; };
 		963EAC8C2691597B00624356 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963EAC8B2691597B00624356 /* AppDelegate.swift */; };
-		963EAC8E2691597B00624356 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963EAC8D2691597B00624356 /* SceneDelegate.swift */; };
 		963EAC902691597B00624356 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963EAC8F2691597B00624356 /* ViewController.swift */; };
 		963EAC932691597B00624356 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 963EAC912691597B00624356 /* Main.storyboard */; };
 		963EAC952691597C00624356 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 963EAC942691597C00624356 /* Assets.xcassets */; };
 		963EAC982691597C00624356 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 963EAC962691597C00624356 /* LaunchScreen.storyboard */; };
+		963EACA026915A9C00624356 /* ViewConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963EAC9F26915A9C00624356 /* ViewConstraints.swift */; };
+		963EACA32691C92D00624356 /* BasicMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963EACA22691C92D00624356 /* BasicMessageCell.swift */; };
+		963EACA92691C97F00624356 /* FullMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963EACA82691C97F00624356 /* FullMessageCell.swift */; };
+		963EACAB2691EF6D00624356 /* FriendMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963EACAA2691EF6D00624356 /* FriendMessageCell.swift */; };
+		963EACAD2691F97C00624356 /* MyMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963EACAC2691F97C00624356 /* MyMessageCell.swift */; };
+		96A676A0269289A000DE706D /* TextMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A6769F269289A000DE706D /* TextMessageView.swift */; };
+		96A676A2269289B900DE706D /* TextMessageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96A676A1269289B900DE706D /* TextMessageView.xib */; };
+		96A676A426928A8E00DE706D /* MyTextMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A676A326928A8E00DE706D /* MyTextMessageCell.swift */; };
+		96A676A626928B5C00DE706D /* FriendTextMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A676A526928B5C00DE706D /* FriendTextMessageCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9635EB0A2695F29100BAAF57 /* ImageMessageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageMessageView.xib; sourceTree = "<group>"; };
+		9635EB0B2695F29100BAAF57 /* ImageMessageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageMessageView.swift; sourceTree = "<group>"; };
+		9635EB0E2695F49500BAAF57 /* MessageCalculate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCalculate.swift; sourceTree = "<group>"; };
+		9635EB1026969BBD00BAAF57 /* FriendImageMessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendImageMessageCell.swift; sourceTree = "<group>"; };
+		9635EB1226969BC800BAAF57 /* MyImageMessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyImageMessageCell.swift; sourceTree = "<group>"; };
+		9635EB1426969D7400BAAF57 /* ChestMessageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChestMessageView.xib; sourceTree = "<group>"; };
+		9635EB1526969D7400BAAF57 /* StickerMessageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StickerMessageView.xib; sourceTree = "<group>"; };
+		9635EB1626969D7400BAAF57 /* StickersComboMessageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StickersComboMessageView.xib; sourceTree = "<group>"; };
+		9635EB1726969D7400BAAF57 /* ReplyMessageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReplyMessageView.xib; sourceTree = "<group>"; };
+		9635EB1826969D7400BAAF57 /* VideoMessageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoMessageView.swift; sourceTree = "<group>"; };
+		9635EB1926969D7400BAAF57 /* StickersComboMessageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StickersComboMessageView.swift; sourceTree = "<group>"; };
+		9635EB1A26969D7400BAAF57 /* VideoMessageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VideoMessageView.xib; sourceTree = "<group>"; };
+		9635EB1B26969D7400BAAF57 /* ChestMessageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChestMessageView.swift; sourceTree = "<group>"; };
+		9635EB1C26969D7400BAAF57 /* AudioMessageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioMessageView.swift; sourceTree = "<group>"; };
+		9635EB1D26969D7400BAAF57 /* ReplyMessageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReplyMessageView.swift; sourceTree = "<group>"; };
+		9635EB1E26969D7400BAAF57 /* StickerMessageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StickerMessageView.swift; sourceTree = "<group>"; };
+		9635EB1F26969D7400BAAF57 /* AudioMessageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AudioMessageView.xib; sourceTree = "<group>"; };
+		9635EB2C26969FE700BAAF57 /* MyAudioMessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAudioMessageCell.swift; sourceTree = "<group>"; };
+		9635EB2E2696A03A00BAAF57 /* MyChestMessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyChestMessageCell.swift; sourceTree = "<group>"; };
+		9635EB302696A07A00BAAF57 /* MyStickerMessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyStickerMessageCell.swift; sourceTree = "<group>"; };
+		9635EB322696A15400BAAF57 /* MyVideoMessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyVideoMessageCell.swift; sourceTree = "<group>"; };
+		9635EB342696A20A00BAAF57 /* FriendAudioMessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendAudioMessageCell.swift; sourceTree = "<group>"; };
+		9635EB362696A24A00BAAF57 /* FriendChestMessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendChestMessageCell.swift; sourceTree = "<group>"; };
+		9635EB382696A28100BAAF57 /* FullChestMessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullChestMessageCell.swift; sourceTree = "<group>"; };
+		9635EB3A2696A32C00BAAF57 /* FriendStickerMessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendStickerMessageCell.swift; sourceTree = "<group>"; };
+		9635EB3C2696A37100BAAF57 /* FriendVideoMessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendVideoMessageCell.swift; sourceTree = "<group>"; };
 		963EAC882691597B00624356 /* MessageCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MessageCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		963EAC8B2691597B00624356 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		963EAC8D2691597B00624356 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		963EAC8F2691597B00624356 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		963EAC922691597B00624356 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		963EAC942691597C00624356 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		963EAC972691597C00624356 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		963EAC992691597C00624356 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		963EAC9F26915A9C00624356 /* ViewConstraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewConstraints.swift; sourceTree = "<group>"; };
+		963EACA22691C92D00624356 /* BasicMessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicMessageCell.swift; sourceTree = "<group>"; };
+		963EACA82691C97F00624356 /* FullMessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullMessageCell.swift; sourceTree = "<group>"; };
+		963EACAA2691EF6D00624356 /* FriendMessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendMessageCell.swift; sourceTree = "<group>"; };
+		963EACAC2691F97C00624356 /* MyMessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMessageCell.swift; sourceTree = "<group>"; };
+		96A6769F269289A000DE706D /* TextMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextMessageView.swift; sourceTree = "<group>"; };
+		96A676A1269289B900DE706D /* TextMessageView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextMessageView.xib; sourceTree = "<group>"; };
+		96A676A326928A8E00DE706D /* MyTextMessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTextMessageCell.swift; sourceTree = "<group>"; };
+		96A676A526928B5C00DE706D /* FriendTextMessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendTextMessageCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +124,89 @@
 		963EAC8A2691597B00624356 /* MessageCell */ = {
 			isa = PBXGroup;
 			children = (
+				963EACA12691C90F00624356 /* Cell */,
 				963EAC8B2691597B00624356 /* AppDelegate.swift */,
-				963EAC8D2691597B00624356 /* SceneDelegate.swift */,
 				963EAC8F2691597B00624356 /* ViewController.swift */,
 				963EAC912691597B00624356 /* Main.storyboard */,
 				963EAC942691597C00624356 /* Assets.xcassets */,
 				963EAC962691597C00624356 /* LaunchScreen.storyboard */,
 				963EAC992691597C00624356 /* Info.plist */,
+				963EAC9F26915A9C00624356 /* ViewConstraints.swift */,
+				9635EB0E2695F49500BAAF57 /* MessageCalculate.swift */,
 			);
 			path = MessageCell;
+			sourceTree = "<group>";
+		};
+		963EACA12691C90F00624356 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				96A6769E2692832700DE706D /* View */,
+				963EACA72691C94C00624356 /* FullMessage */,
+				963EACA62691C94500624356 /* FriendMessage */,
+				963EACA42691C93400624356 /* MyMessage */,
+				963EACA22691C92D00624356 /* BasicMessageCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		963EACA42691C93400624356 /* MyMessage */ = {
+			isa = PBXGroup;
+			children = (
+				963EACAC2691F97C00624356 /* MyMessageCell.swift */,
+				96A676A326928A8E00DE706D /* MyTextMessageCell.swift */,
+				9635EB1226969BC800BAAF57 /* MyImageMessageCell.swift */,
+				9635EB2C26969FE700BAAF57 /* MyAudioMessageCell.swift */,
+				9635EB2E2696A03A00BAAF57 /* MyChestMessageCell.swift */,
+				9635EB302696A07A00BAAF57 /* MyStickerMessageCell.swift */,
+				9635EB322696A15400BAAF57 /* MyVideoMessageCell.swift */,
+			);
+			path = MyMessage;
+			sourceTree = "<group>";
+		};
+		963EACA62691C94500624356 /* FriendMessage */ = {
+			isa = PBXGroup;
+			children = (
+				963EACAA2691EF6D00624356 /* FriendMessageCell.swift */,
+				96A676A526928B5C00DE706D /* FriendTextMessageCell.swift */,
+				9635EB1026969BBD00BAAF57 /* FriendImageMessageCell.swift */,
+				9635EB342696A20A00BAAF57 /* FriendAudioMessageCell.swift */,
+				9635EB362696A24A00BAAF57 /* FriendChestMessageCell.swift */,
+				9635EB3A2696A32C00BAAF57 /* FriendStickerMessageCell.swift */,
+				9635EB3C2696A37100BAAF57 /* FriendVideoMessageCell.swift */,
+			);
+			path = FriendMessage;
+			sourceTree = "<group>";
+		};
+		963EACA72691C94C00624356 /* FullMessage */ = {
+			isa = PBXGroup;
+			children = (
+				963EACA82691C97F00624356 /* FullMessageCell.swift */,
+				9635EB382696A28100BAAF57 /* FullChestMessageCell.swift */,
+			);
+			path = FullMessage;
+			sourceTree = "<group>";
+		};
+		96A6769E2692832700DE706D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				96A6769F269289A000DE706D /* TextMessageView.swift */,
+				96A676A1269289B900DE706D /* TextMessageView.xib */,
+				9635EB0B2695F29100BAAF57 /* ImageMessageView.swift */,
+				9635EB0A2695F29100BAAF57 /* ImageMessageView.xib */,
+				9635EB1C26969D7400BAAF57 /* AudioMessageView.swift */,
+				9635EB1F26969D7400BAAF57 /* AudioMessageView.xib */,
+				9635EB1B26969D7400BAAF57 /* ChestMessageView.swift */,
+				9635EB1426969D7400BAAF57 /* ChestMessageView.xib */,
+				9635EB1D26969D7400BAAF57 /* ReplyMessageView.swift */,
+				9635EB1726969D7400BAAF57 /* ReplyMessageView.xib */,
+				9635EB1E26969D7400BAAF57 /* StickerMessageView.swift */,
+				9635EB1526969D7400BAAF57 /* StickerMessageView.xib */,
+				9635EB1926969D7400BAAF57 /* StickersComboMessageView.swift */,
+				9635EB1626969D7400BAAF57 /* StickersComboMessageView.xib */,
+				9635EB1826969D7400BAAF57 /* VideoMessageView.swift */,
+				9635EB1A26969D7400BAAF57 /* VideoMessageView.xib */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,8 +266,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9635EB2026969D7400BAAF57 /* ChestMessageView.xib in Resources */,
 				963EAC982691597C00624356 /* LaunchScreen.storyboard in Resources */,
+				9635EB2326969D7400BAAF57 /* ReplyMessageView.xib in Resources */,
+				96A676A2269289B900DE706D /* TextMessageView.xib in Resources */,
+				9635EB2626969D7400BAAF57 /* VideoMessageView.xib in Resources */,
+				9635EB2B26969D7400BAAF57 /* AudioMessageView.xib in Resources */,
+				9635EB0C2695F29100BAAF57 /* ImageMessageView.xib in Resources */,
 				963EAC952691597C00624356 /* Assets.xcassets in Resources */,
+				9635EB2226969D7400BAAF57 /* StickersComboMessageView.xib in Resources */,
+				9635EB2126969D7400BAAF57 /* StickerMessageView.xib in Resources */,
 				963EAC932691597B00624356 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,9 +287,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9635EB2426969D7400BAAF57 /* VideoMessageView.swift in Sources */,
+				9635EB312696A07A00BAAF57 /* MyStickerMessageCell.swift in Sources */,
+				9635EB2526969D7400BAAF57 /* StickersComboMessageView.swift in Sources */,
+				96A676A626928B5C00DE706D /* FriendTextMessageCell.swift in Sources */,
+				9635EB2826969D7400BAAF57 /* AudioMessageView.swift in Sources */,
+				9635EB1126969BBD00BAAF57 /* FriendImageMessageCell.swift in Sources */,
+				963EACA32691C92D00624356 /* BasicMessageCell.swift in Sources */,
+				9635EB0D2695F29100BAAF57 /* ImageMessageView.swift in Sources */,
+				9635EB2926969D7400BAAF57 /* ReplyMessageView.swift in Sources */,
+				9635EB2D26969FE700BAAF57 /* MyAudioMessageCell.swift in Sources */,
+				96A676A426928A8E00DE706D /* MyTextMessageCell.swift in Sources */,
+				9635EB3B2696A32C00BAAF57 /* FriendStickerMessageCell.swift in Sources */,
+				9635EB372696A24A00BAAF57 /* FriendChestMessageCell.swift in Sources */,
+				9635EB1326969BC800BAAF57 /* MyImageMessageCell.swift in Sources */,
+				963EACA026915A9C00624356 /* ViewConstraints.swift in Sources */,
+				9635EB392696A28100BAAF57 /* FullChestMessageCell.swift in Sources */,
+				963EACA92691C97F00624356 /* FullMessageCell.swift in Sources */,
+				9635EB2A26969D7400BAAF57 /* StickerMessageView.swift in Sources */,
+				963EACAB2691EF6D00624356 /* FriendMessageCell.swift in Sources */,
 				963EAC902691597B00624356 /* ViewController.swift in Sources */,
+				9635EB352696A20A00BAAF57 /* FriendAudioMessageCell.swift in Sources */,
+				9635EB0F2695F49500BAAF57 /* MessageCalculate.swift in Sources */,
+				96A676A0269289A000DE706D /* TextMessageView.swift in Sources */,
+				963EACAD2691F97C00624356 /* MyMessageCell.swift in Sources */,
+				9635EB3D2696A37100BAAF57 /* FriendVideoMessageCell.swift in Sources */,
+				9635EB2F2696A03A00BAAF57 /* MyChestMessageCell.swift in Sources */,
+				9635EB332696A15400BAAF57 /* MyVideoMessageCell.swift in Sources */,
+				9635EB2726969D7400BAAF57 /* ChestMessageView.swift in Sources */,
 				963EAC8C2691597B00624356 /* AppDelegate.swift in Sources */,
-				963EAC8E2691597B00624356 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +392,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -271,7 +447,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -289,6 +465,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DTR5DTQ2DE;
 				INFOPLIST_FILE = MessageCell/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,7 +473,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Ray.MessageCell;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -308,6 +485,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DTR5DTQ2DE;
 				INFOPLIST_FILE = MessageCell/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,7 +493,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Ray.MessageCell;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
